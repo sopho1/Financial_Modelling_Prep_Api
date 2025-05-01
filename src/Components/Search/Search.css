@@ -1,0 +1,54 @@
+/* Section Background */
+.search-section {
+    position: relative;
+    background-color: #f3f4f6; /* Equivalent to bg-gray-100 */
+    padding: 24px 0;
+  }
+  
+  /* Container */
+  .search-container {
+    max-width: 1024px; /* Equivalent to max-w-4xl */
+    margin: 0 auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px; /* Equivalent to space-y-6 */
+  }
+  
+  /* Form */
+  .search-form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 40px; /* Equivalent to p-10 */
+    gap: 16px; /* Equivalent to space-y-4 */
+    background-color: #1e3a8a; /* Equivalent to bg-darkBlue */
+    border-radius: 12px; /* Equivalent to rounded-lg */
+  }
+  
+  /* Adjust layout for medium screens */
+  @media (min-width: 768px) {
+    .search-form {
+      flex-direction: row;
+      gap: 12px; /* Equivalent to md:space-x-3 */
+    }
+  }
+  
+  /* Input Field */
+  .search-input {
+    flex: 1;
+    padding: 12px; /* Equivalent to p-3 */
+    border: 2px solid #e5e7eb; /* Equivalent to border-2 */
+    border-radius: 8px; /* Equivalent to rounded-lg */
+    color: black;
+  }
+  
+  .search-input::placeholder {
+    color: black; /* Equivalent to placeholder-black */
+  }
+  
+  .search-input:focus {
+    outline: none;
+  }
+  

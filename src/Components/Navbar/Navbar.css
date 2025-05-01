@@ -1,0 +1,87 @@
+/* Navbar Container */
+.navbar {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Left Section: Logo + Dashboard Link */
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Equivalent to Tailwind's space-x-20 */
+  }
+
+  .navbar-logo {
+    display: flex;
+    gap: 24px;
+  }
+  
+  /* Logo */
+  .navbar-logo img {
+    width: 120px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  /* Dashboard Link */
+  .navbar-dashboard {
+    display: none;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    margin-top: 5px;
+  }
+  
+  .navbar-dashboard a   {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-dashboard a:hover {
+    color: #1e3a8a; /* Dark Blue */
+  }
+  
+  /* Right Section: Login + Signup */
+  .navbar-right {
+    display: none;
+    align-items: center;
+    gap: 24px; /* Equivalent to Tailwind's space-x-6 */
+  }
+  
+  .navbar-right div {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-right div:hover {
+    color: #1e3a8a; /* Dark Blue */
+  }
+  
+  .navbar-right a {
+    padding: 12px 24px;
+    font-weight: bold;
+    color: white;
+    background-color: #28a745; /* Light Green */
+    border-radius: 8px;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+  }
+  
+  .navbar-right a:hover {
+    opacity: 0.7;
+  }
+  
+  /* Show elements only on large screens */
+  @media (min-width: 1024px) {
+    .navbar-dashboard,
+    .navbar-right {
+      display: flex;
+    }
+  }
+  

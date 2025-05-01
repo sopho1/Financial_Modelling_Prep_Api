@@ -1,0 +1,80 @@
+.List {
+    padding-top: 0.75rem; /* Equivalent to py-3 */
+    padding-bottom: 0.75rem; /* Equivalent to py-3 */
+  }
+  
+  /* Responsive padding */
+  @media (min-width: 640px) { /* sm breakpoint */
+    .List {
+      padding-top: 1rem; /* Equivalent to sm:py-4 */
+      padding-bottom: 1rem; /* Equivalent to sm:py-4 */
+    }
+  }
+
+.Fdiv {
+    display: flex; /* Equivalent to flex */
+    align-items: center; /* Equivalent to items-center */
+    gap: 80rem; /* Equivalent to space-x-4 (16px) */
+  }
+
+.Sdiv {
+    flex: 1;
+    min-width: 0;
+  }
+
+.Fp {
+    flex: 1;
+  min-width: 0;
+  font-size: 0.875rem; /* Equivalent to text-sm */
+  font-weight: 500; /* Equivalent to font-medium */
+  color: #1F2937; /* Equivalent to text-gray-900 */
+  white-space: nowrap; /* Ensures text truncates with ellipsis */
+  overflow: hidden;
+  text-overflow: ellipsis;
+ }  
+
+ .Sp {
+    flex: 1;
+  min-width: 0;
+  font-size: 0.875rem; /* Equivalent to text-sm */
+  color: #6B7280; /* Equivalent to text-gray-500 */
+  white-space: nowrap; /* Ensures text truncates with ellipsis */
+  overflow: hidden;
+  text-overflow: ellipsis;
+ } 
+
+ .Tdiv {
+    flex: 1;
+  min-width: 0;
+  display: inline-flex; /* Equivalent to inline-flex */
+  align-items: center; /* Equivalent to items-center */
+  font-size: 1rem; /* Equivalent to text-base */
+  font-weight: 600; /* Equivalent to font-semibold */
+  color: #1F2937; /* Equivalent to text-gray-900 */
+ }
+
+ Fodiv {
+    flex: 1;
+    min-width: 0;
+    display: inline-flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1F2937;
+    background-color: white; /* Equivalent to bg-white */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Equivalent to shadow */
+    border-radius: 0.5rem; /* Equivalent to rounded-lg */
+    margin-bottom: 1rem; /* Equivalent to mb-4 */
+    padding: 1rem; /* Equivalent to p-4 */
+    height: 100%; /* Equivalent to h-full */
+ }
+
+ @media (min-width: 640px) {
+    .Sdiv {
+      padding: 1.5rem; /* Equivalent to sm:p-6 */
+    }
+ }
+
+ Slist {
+    border-top: 1px solid #E5E7EB; /* Equivalent to divide-y */
+ }

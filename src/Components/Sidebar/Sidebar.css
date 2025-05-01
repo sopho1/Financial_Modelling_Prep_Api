@@ -1,0 +1,27 @@
+.sidebar {
+    height: 100%;
+}
+
+.sidebar-title {
+    display: flex;
+    min-width: 100%; /* Applies for medium and larger screens */
+    color: #64748b; /* Equivalent to text-blueGray-500 */
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    padding-top: -1px; /* Though negative padding is not valid, check if margin is intended */
+    padding-bottom: 1rem; /* Equivalent to pb-4 */
+    text-decoration: none;
+    margin-left: 1.5rem; /* Equivalent to ml-12 */
+}
+
+.sidebar-title .Link{
+    margin-left: 2rem;
+    color: #000;
+}
+
+.sidebar-title h6{
+    margin-left: -1rem;
+    color: #000;
+}

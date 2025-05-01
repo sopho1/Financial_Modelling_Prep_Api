@@ -1,0 +1,42 @@
+.search-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 24px;
+  background-color: #f1f5f9; /* Equivalent to bg-slate-100 */
+  border-radius: 12px; /* Equivalent to rounded-lg */
+}
+
+/* Adjust layout for medium (md) screens and above */
+@media (min-width: 768px) {
+  .search-result {
+    flex-direction: row;
+  }
+}
+
+/* Title */
+.search-title {
+  font-weight: bold;
+  text-align: center;
+  color: black; /* Equivalent to text-veryDarkViolet */
+}
+
+/* Adjust text alignment for medium screens */
+@media (min-width: 768px) {
+  .search-title {
+    text-align: left;
+  }
+}
+
+/* Currency Text */
+.search-currency {
+  color: black; /* Equivalent to text-veryDarkBlue */
+}
+
+/* Exchange Details */
+.search-exchange {
+  font-weight: bold;
+  color: black; /* Equivalent to text-veryDarkBlue */
+}

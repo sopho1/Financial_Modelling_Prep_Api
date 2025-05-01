@@ -1,0 +1,21 @@
+/* Delete Button */
+.delete-btn {
+    display: block;
+    width: 100%;
+    padding: 12px 0; /* Equivalent to py-3 */
+    color: white;
+    background-color: #ef4444; /* Equivalent to bg-red-500 */
+    border: 2px solid #ef4444; /* Equivalent to border-red-500 */
+    border-radius: 8px; /* Equivalent to rounded-lg */
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out; /* Equivalent to duration-200 */
+    cursor: pointer;
+  }
+  
+  /* Hover Effect */
+  .delete-btn:hover {
+    background-color: white;
+    color: #ef4444; /* Equivalent to hover:text-red-500 */
+  }
+  

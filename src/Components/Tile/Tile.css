@@ -1,0 +1,4 @@
+.stat-card .stat-content {
+    display: flex;
+    flex-direction: column;
+}

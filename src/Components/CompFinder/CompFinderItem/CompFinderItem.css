@@ -1,0 +1,46 @@
+.G {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 1rem; /* Equivalent to px-4 py-2 */
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    font-weight: 500; /* Equivalent to font-medium */
+    color: #1F2937; /* Equivalent to text-gray-900 */
+    background-color: white; /* Equivalent to bg-white */
+    border: 1px solid #E5E7EB; /* Equivalent to border border-gray-200 */
+    border-top-left-radius: 0.5rem; /* Equivalent to rounded-l-lg */
+    border-bottom-left-radius: 0.5rem; /* Equivalent to rounded-l-lg */
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  /* Hover effect */
+  .G:hover {
+    background-color: #F3F4F6; /* Equivalent to hover:bg-gray-100 */
+    color: #1D4ED8; /* Equivalent to hover:text-blue-700 */
+  }
+  
+  /* Focus styles */
+  .G:focus {
+    z-index: 10; /* Equivalent to focus:z-10 */
+    outline: none;
+    box-shadow: 0 0 0 2px #1D4ED8; /* Equivalent to focus:ring-2 focus:ring-blue-700 */
+    color: #1D4ED8; /* Equivalent to focus:text-blue-700 */
+  }
+  
+  /* Dark mode styles */
+  .dark .G {
+    background-color: #374151; /* Equivalent to dark:bg-gray-700 */
+    border-color: #4B5563; /* Equivalent to dark:border-gray-600 */
+    color: white; /* Equivalent to dark:text-white */
+  }
+  
+  .dark .G:hover {
+    background-color: #4B5563; /* Equivalent to dark:hover:bg-gray-600 */
+    color: white; /* Equivalent to dark:hover:text-white */
+  }
+  
+  .dark .G:focus {
+    box-shadow: 0 0 0 2px #3B82F6; /* Equivalent to dark:focus:ring-blue-500 */
+    color: white; /* Equivalent to dark:focus:text-white */
+  }
+  

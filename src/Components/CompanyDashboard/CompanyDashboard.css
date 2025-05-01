@@ -1,0 +1,4 @@
+.main-content .content-wrapper .stats-container {
+  display: flex;
+  flex-direction: column;
+}

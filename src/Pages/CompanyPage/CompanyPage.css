@@ -1,0 +1,102 @@
+.container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    /* overflow-x: hidden; */
+  }
+  
+  .sidebar {
+    width: 164px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .toggle-btn {
+    position: absolute;
+    top: 50%;
+    right: -24px;
+    margin-left: 10rem;
+    background: white;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    width: 24px;
+    height: 40px;
+    z-index: 10;
+  }
+  
+  .sidebar-content {
+    padding: 16px;
+    width: 15rem;
+  }
+  
+  .sidebar-title {
+    font-size: 12px;
+    color: #718096;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .main-content {
+    margin-left: 15rem;
+    background: #f8fafc;
+    width: 100%;
+  }
+  
+  .header {
+    height: 50px;
+    /* background: #38bdf8; */
+  }
+  
+  .content-wrapper {
+    padding: 16px;
+  }
+  
+  .stats-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .stat-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 8px;
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .stat-content h5 {
+    color: #718096;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .stat-content span {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .desc {
+    background-color: white; /* Equivalent to bg-white */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Equivalent to shadow */
+    border-radius: 0.375rem; /* Equivalent to rounded */
+    font-size: 1rem; /* Equivalent to text-medium */
+    font-weight: 500; /* Medium font weight */
+    color: #1F2937; /* Equivalent to text-gray-900 */
+    padding: 0.75rem; /* Equivalent to p-3 */
+    margin-top: 0.25rem; /* Equivalent to mt-1 */
+    margin: 1rem; /* Equivalent to m-4 */
+  }
+
+  .container .CD {  
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+  }

@@ -1,0 +1,44 @@
+.tableR {
+    padding: 1rem; /* Equivalent to p-4 */
+    white-space: nowrap; /* Equivalent to whitespace-nowrap */
+    font-size: 0.875rem; /* Equivalent to text-sm (14px) */
+    font-weight: 400; /* Equivalent to font-normal */
+    color: #111827; /* Equivalent to text-gray-900 */
+  }
+
+.tableH {
+    padding: 1rem; /* Equivalent to p-4 */
+    text-align: left; /* Equivalent to text-left */
+    font-size: 0.75rem; /* Equivalent to text-xs (12px) */
+    font-weight: 500; /* Equivalent to font-medium */
+    color: #6b7280; /* Equivalent to text-gray-500 */
+    text-transform: uppercase; /* Equivalent to uppercase */
+    letter-spacing: 0.05em; /* Equivalent to tracking-wider */
+  }
+
+.tableM {
+    background-color: white; /* Equivalent to bg-white */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Equivalent to shadow */
+    border-radius: 0.5rem; /* Equivalent to rounded-lg */
+    padding: 1rem; /* Default padding (p-4) */
+  }
+  
+  /* Responsive padding */
+  @media (min-width: 640px) { /* sm breakpoint */
+    .tableM {
+      padding: 1.5rem; /* Equivalent to sm:p-6 */
+    }
+  }
+  
+  @media (min-width: 1280px) { /* xl breakpoint */
+    .tableM {
+      padding: 2rem; /* Equivalent to xl:p-8 */
+    }
+  }
+
+.tableM .tableh {
+    min-width: 100%; /* Equivalent to min-w-full */
+    border-bottom: 1px solid #e5e7eb; /* Equivalent to divide-y divide-gray-200 */
+    border-top: 1px solid #e5e7eb; /* Ensures consistency with divide-y */
+    margin: 1.25rem; /* Equivalent to m-5 (20px) */
+  }
