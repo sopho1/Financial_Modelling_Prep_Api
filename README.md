@@ -39,6 +39,3 @@ dotnet restore
 dotnet watch run
 
 The API will run on http://localhost:5202 (HTTP) and https://localhost:7020 (HTTPS).
-
-License
-This project is licensed under the MIT License.
